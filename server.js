@@ -15,6 +15,9 @@ httpServer.listen(process.env['app_port'] ? process.env['app_port'] : 8001);
 //Create WebSocket server
 var webSocketServer = ws.listen(process.env['app_port_websocket'] ? process.env['app_port_websocket'] : 80);
 
+//Listening
+console.log("Github firehose server started and listening");
+
 //Receive a connect on http
 httpServer.on('request', function(request, response) {
 	var id = Math.random().toString().substr(2) + '_http';
