@@ -13,7 +13,7 @@ var httpServer = http.createServer();
 httpServer.listen(process.env['app_port'] !== undefined ? process.env['app_port'] : 8001);
 
 //Create WebSocket server
-var webSocketServer = ws.listen(process.env['app_port_websocket'] !== undefined ? process.env['app_port_websocket'] : 80);
+var webSocketServer = server = ws.attach(httpServer);
 
 //Listening
 console.log("Github firehose server started and listening");
