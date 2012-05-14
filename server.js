@@ -5,6 +5,9 @@ var Firehose = require('github-firehose');
 //Creat a client array
 var clients = {};
 
+//Start
+console.log("Starting Github firehose server");
+
 //Create HTTP server
 var httpServer = http.createServer();
 httpServer.listen(process.env['app_port'] ? process.env['app_port'] : 8001);
