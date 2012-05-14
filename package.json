@@ -1,0 +1,27 @@
+{
+	"name": "github-firehose-server",
+	"description": "Server that will host a Github HTTP streaming server and WebSocket server. Basically the Github firehose!",
+	"version": "0.0.1",
+	"author": "Ollie Parsley <ollie@hootware.com>",
+	"engines": [ "node >= 0.6.0" ],
+	"node": "0.6.17",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hootware/github-firehose-server.git"
+	},
+	"dependencies": {
+		"github-firehose": "",
+		"websocket.io": ""
+	},
+	"scripts": {
+		"start": "node server.js"
+	},
+	"keywords": [
+		"github",
+		"firehose",
+		"hootware",
+		"http",
+		"websockets",
+		"streaming"
+	]
+}
