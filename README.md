@@ -13,9 +13,9 @@ Using the github-firehose-node code to create an HTTP and WebSocket server for u
 
 ##Usage
 
-*Clone the repo
-*`npm install`
-*`npm start`
+* Clone the repo
+* `npm install`
+* `npm start`
 
 You will undoubtedly need to change the ports used to bind. I've built this for nodester which has separate ports for HTTP and WebSockets. You might need to make tweaks for your own ports.
 
@@ -25,9 +25,13 @@ The repo is all set and ready for use on nodester (http://nodester.com) as it ma
 
 ##Real world example
 
-*Checkout http://firehose.github.hootware.com or ws://firehose.github.hootware.com to access the HTTP Streaming service or WebSocket streaming service
-*It's running on nodester
+* Checkout http://firehose.github.hootware.com or ws://firehose.github.hootware.com to access the HTTP Streaming service or WebSocket streaming service
+* It's running on nodester
 
 ##Contributers
 
-*I am the lord and master of this repo: Ollie Parsley http://twitter.com/OllieParsley http://ollieparsley.com
+I am the lord and master of this repo
+
+* Ollie Parsley (@OllieParsley)
+* http://twitter.com/OllieParsley
+* http://ollieparsley.com
