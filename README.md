@@ -35,3 +35,10 @@ I am the lord and master of this repo
 * Ollie Parsley (@OllieParsley)
 * http://twitter.com/OllieParsley
 * http://ollieparsley.com
+
+##TODO's
+
+* Add authentication. Maybe some API keys...
+* Rate limiting (for connects/disconnects)
+* Any suggestions you have...
+
